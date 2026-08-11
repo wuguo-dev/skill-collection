@@ -1,0 +1,86 @@
+# CS日志查看插件
+
+URL: https://docs.elibot.cn/cs/3b5a8/0ffe3/e4b6b
+发布时间: 2026-01-21
+
+# 1. 简介
+
+
+
+日志查看插件可以查看当前控制器历史运行日志报警信息，目前系统运行页面日志栏关机重启后不显示。如报警后关机重启解决，想了解之前报警信息运行页面查找不到，日志插件页面可以查看
+
+
+
+[LogAnalytics-1.3.elico](/cs/-/dam/assets/organization_78ncz3z--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjYxMzk5LCJwYXRoIjoibG9nYW5hbHl0aWNzLTEuMy5lbGljbyIsInRpbWVzdGFtcCI6IjIwMjYtMDMtMDNUMTY6MDk6MDEuNTg5KzA4OjAwIiwidG9rZW4iOiIifSwiZXhwIjoiMjAyNi0wOC0wOVQxNTo1OTo1OS45OTlaIiwicHVyIjoib3JnYW5pemF0aW9uXzc4bmN6M3otLW1haW4tdmVyc2lvbiJ9fQ--5b4e61b476e2a6a9e56df3e13d43be00d58725afa1a706c05312ab95b04a5c7f/loganalytics-1.3.elico?disposition=attachment)1.5 MB
+
+
+
+# 2. 操作流程
+
+
+
+## 2.1. 插件安装
+
+
+
+[下载插件安装包后，按插件安装流程章节安装插件。](https://docs.elibot.cn/cs/3b5a8/7a799/ce642#heading-menu-h2-2)
+
+
+
+## 2.2. 插件使用
+
+
+
+● 点击示教器屏幕左侧底部插件按钮，再点击“日志分析“进入插件界面
+
+
+
+![](/cs/-/dam/assets/organization_78ncz3z--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjYxMzk4LCJwYXRoIjoiMjAyNjAzMDMtMjU0NzM3Ni1zaXd3b2kiLCJ0aW1lc3RhbXAiOiIyMDI2LTAzLTAzVDE2OjA4OjQ0LjA3NiswODowMCIsInRva2VuIjoiIn0sImV4cCI6IjIwMjYtMDgtMDlUMTU6NTk6NTkuOTk5WiIsInB1ciI6Im9yZ2FuaXphdGlvbl83OG5jejN6LS1tYWluLXZlcnNpb24ifX0--4659c421512f6662dd0e1d9400b86dbaadd3c616c0d8980a0ecf08d8a63a0228/20260303-2547376-siwwoi)
+
+
+
+● 用户日志：该日志显示用户使用过程中产生的历史日志，调取log_history.csv 文件内容信息、警告、错误：复选框的作用。用于筛选历史日志信息，选中则代表查看该类型信息，取消则代表不查看当前类型信息。复选框每次变化则默认加载总计 100条被选中类型日志，往下拉加载本机更早之前日志。
+
+
+
+![](/cs/-/dam/assets/organization_78ncz3z--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjQ3MDc5LCJwYXRoIjoiMjAyNjAxMjItMjY1NTMzMS1rd2xtciIsInRpbWVzdGFtcCI6IjIwMjYtMDEtMjJUMTM6MTQ6MzEuNTE0KzA4OjAwIiwidG9rZW4iOiIifSwiZXhwIjoiMjAyNi0wOC0wOVQxNTo1OTo1OS45OTlaIiwicHVyIjoib3JnYW5pemF0aW9uXzc4bmN6M3otLW1haW4tdmVyc2lvbiJ9fQ--8a1c91e32c051e9f4f7d684f4bf0a4746f7ca2491927bf79e6a72dd41a9dac32/20260122-2655331-kwlmr)
+
+
+
+● 如果当前被选中信息有详细信息，选中后会在右侧弹出显示，如下图
+
+
+
+![](/cs/-/dam/assets/organization_78ncz3z--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjQ3MDgxLCJwYXRoIjoiMjAyNjAxMjItMjIwODU5OC0zczdvNGsiLCJ0aW1lc3RhbXAiOiIyMDI2LTAxLTIyVDEzOjE1OjI1LjMyNSswODowMCIsInRva2VuIjoiIn0sImV4cCI6IjIwMjYtMDgtMDlUMTU6NTk6NTkuOTk5WiIsInB1ciI6Im9yZ2FuaXphdGlvbl83OG5jejN6LS1tYWluLXZlcnNpb24ifX0--2facc2854795375f2cb9c76942464678d0d9a00b1ad37424a664065ae5dacf85/20260122-2208598-3s7o4k)
+
+
+
+● 系统日志：为系统运行日志，调取elibot.log文件内容便于查看机器人运行日志。如下图可看到点位数据
+
+
+
+![](/cs/-/dam/assets/organization_78ncz3z--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjQ3MDc4LCJwYXRoIjoiMjAyNjAxMjItMjU4OTg4MC1pN2xxbnAiLCJ0aW1lc3RhbXAiOiIyMDI2LTAxLTIyVDEzOjE0OjMwLjgzMyswODowMCIsInRva2VuIjoiIn0sImV4cCI6IjIwMjYtMDgtMDlUMTU6NTk6NTkuOTk5WiIsInB1ciI6Im9yZ2FuaXphdGlvbl83OG5jejN6LS1tYWluLXZlcnNpb24ifX0--98317dbcc8d1218336d72f7ec41b196cfab6953962f05bbc80d4ab9209356c7a/20260122-2589880-i7lqnp)
+
+
+
+● 参数日志：为系统运行时各参数在取值范围内所取值出现的次数，调取histogram.properties文件内容。当选中左侧的某个参数名称，右侧会显示该参数在不同取值点出现的次数的直方图，直方图下方会显示这些数据的一个数组，表示对应值的出现次数。如可以查看机器人关节温度是不是长期在正常某个范围内，还是说长期在一个异常的温度范围内
+
+
+
+![](/cs/-/dam/assets/organization_78ncz3z--main-version/eyJfcmFpbHMiOnsiZGF0YSI6eyJpZCI6MjQ3MDc2LCJwYXRoIjoiMjAyNjAxMjItMjU1MjEyNi05ajlnd3AiLCJ0aW1lc3RhbXAiOiIyMDI2LTAxLTIyVDEzOjE0OjMwLjc0OCswODowMCIsInRva2VuIjoiIn0sImV4cCI6IjIwMjYtMDgtMDlUMTU6NTk6NTkuOTk5WiIsInB1ciI6Im9yZ2FuaXphdGlvbl83OG5jejN6LS1tYWluLXZlcnNpb24ifX0--2954f2792794bef8480c8492fbf0dd00bb4ebb1d807d9dcabcc9c1674d0f1d3f/20260122-2552126-9j9gwp)
+
+
+
+# 3. 常见问题解答
+
+
+
+1. 机器人系统版本：2.11.0以上均可使用
+
+
+
+2. 添加插件后需要重启机器人后插件才激活
+
+
+
+插件页面由于软件整体性能考虑没有实时更新，若需要实时查看日志，请直接使用运行页面的日志，或者如果你想同时看到更多的日志记录，可以点击运行页面的 “清除”按钮，日志插件也可以看到清除前的所有数据。

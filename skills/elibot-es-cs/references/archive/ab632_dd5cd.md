@@ -1,0 +1,266 @@
+# B1柜IO接线
+
+URL: https://docs.elibot.cn/cs/ab632/dd5cd
+Published: 发布时间: 2026-08-04
+
+# **1. 简介**
+
+
+
+CS机器人BI柜为用户提供了丰富的IO接口，包括安全IO、标准数字IO、可配置IO、模拟量IO等，本文介绍了控制柜各IO接口功能、接线方式、使用注意事项，用户可根据需求配置IO接线
+
+
+
+# **2. B1柜内部布局及IO定义**
+
+
+
+![](https://wdcdn.qpic.cn/MTY4ODg1Nzk2NjM5OTUzMA_516759_r79JpNfaptbMT4Ui_1774318337?w=4320&h=5760&type=image/jpeg)
+
+
+
+![](https://wdcdn.qpic.cn/MTY4ODg1Nzk2NjM5OTUzMA_989496_NMK66ct2dacmG-4m_1774318381?w=1134&h=231&type=image/png)
+
+
+
+![](https://wdcdn.qpic.cn/MTY4ODg1Nzk2NjM5OTUzMA_858073_4sbFO4bZiSPeE2F9_1774343762?w=1035&h=421&type=image/png)
+
+
+
+控制柜IO接口定义
+
+
+
+**3. 示例**
+
+
+
+## **3.1 安全IO接线**
+
+
+
+安全IO可参考文档：[<u>防护停止和急停信号接线 | ES/CS技术文档</u>](https://docs.elibot.cn/cs/ab632/d31d2#heading-menu-h1-0)
+
+
+
+## **3.2 远程开关机**
+
+
+
+远程开机功能可参考文档：[<u>远程开关机 | ES/CS技术文档</u>](https://docs.elibot.cn/cs/ab632/b62ef#heading-menu-h1-0)
+
+
+
+## **3.3 可配置IO**
+
+
+
+CS 系列控制柜包含 8 组可配置输入和 8 组可配置输出，用户可通过示教器定义可配置 IO 的功能。
+
+
+
+**1、 可配置IO设置**
+
+
+
+可配置IO用于配置安全功能的配置，两个输入或者两个输出为一组，信号之间有时间差校验，使用时必须同时接通同时断开，在默认未配置的情况跟普通的数字IO一样
+
+
+
+![](https://wdcdn.qpic.cn/MTY4ODg1MTI2MzE5MDc3MQ_29018_VdD8u6d6ezWT5sqA_1785479911?w=1276&h=801&type=image/png)
+
+
+
+![](https://wdcdn.qpic.cn/MTY4ODg1MTI2MzE5MDc3MQ_492769_Fhi05XUlX543KUKK_1785479949?w=1277&h=800&type=image/png)
+
+
+
+**2、可配置IO电气规格**
+
+
+
+![](https://wdcdn.qpic.cn/MTY4ODg1Nzk2NjM5OTUzMA_926728_yzTVf-YdglKCDf8S_1721799104?w=837&h=407&type=image/png)
+
+
+
+**3、可配置IO接线方式**
+
+
+
+![](https://wdcdn.qpic.cn/MTY4ODg1Nzk2NjM5OTUzMA_49257_hoLtINq2XFBsg-Xr_1721799135?w=754&h=311&type=image/png)
+
+
+
+## **3.4 输入输出接线**
+
+
+
+CS 系列控制柜支持 16 路数字输入和 16 路数字输出。可用于输入或输出数字量信号，信号类型为PNP型。
+
+
+
+**1、 电气规格**
+
+
+
+![](https://wdcdn.qpic.cn/MTY4ODg1Nzk2NjM5OTUzMA_596858_UhREHBD5DG9VaoJE_1715049139?w=784&h=275&type=image/png)
+
+
+
+**2、 使用内部电源供电接线说明**
+
+
+
+1、数字输入接线方式
+
+
+
+![](https://wdcdn.qpic.cn/MTY4ODg1Nzk2NjM5OTUzMA_182139_KGk6OX0ReYVdRXt7_1722477530?w=461&h=389&type=image/png)
+
+
+
+2、数字输出接线方式
+
+
+
+![](https://wdcdn.qpic.cn/MTY4ODg1Nzk2NjM5OTUzMA_176179_3E8tZgyXVP7usRKz_1722478136?w=503&h=312&type=image/png)
+
+
+
+**3、使用外部稳压电源供电，数字输入输出接线方式**
+
+
+
+![](https://wdcdn.qpic.cn/MTY4ODg1Nzk2NjM5OTUzMA_218883_PxTl7tK3dKEIj7ix_1715049386?w=482&h=366&type=image/png)
+
+
+
+数字输入输出接线方式
+
+
+
+## **3.5 模拟量IO**
+
+
+
+模拟 IO 接口可用于接收/发送模拟量信号（电压(0V~10V)或电流（4mA~20mA）），在示教器界面IO中可以对模拟输入和模拟输出类型进行选择切换，选择电流或电压。
+
+
+
+![](https://wdcdn.qpic.cn/MTY4ODg1Nzk2NjM5OTUzMA_444483_xslkBU8-1RI9m2hN_1718352101?w=1283&h=800&type=image/png)
+
+
+
+为保证高准确度，建议遵循以下说明：
+
+
+
+1.使用最靠近此 IO 的 GNDPA 终端，保证信号端与终端共享同一个滤波器；
+
+
+
+2.设备和控制柜使用相同的接地(0V)，模拟 IO 与控制柜不进行电位隔离；
+
+
+
+3.使用屏蔽电缆或双绞线。将屏蔽线与“电源”端子上的“GNDP”终端相连。
+
+
+
+模拟IO接线方式：
+
+
+
+![](https://wdcdn.qpic.cn/MTY4ODg1Nzk2NjM5OTUzMA_814731_H08jKTLsHfETXs4f_1715067117?w=722&h=360&type=image/png)
+
+
+
+## **3.6 IO电源供电**
+
+
+
+CS 系列控制柜数字 IO 可由内部 24V 电源供电，也可使用外部电源通过配置电源接线端子供电。其中“PWR”为内部电源24V 正极“GND”为内部电源负极，“24V”为所有通用数字 IO正极，“0V”为所有数字 IO 负极。CS 系列控制柜默认配置为内部电源供电，当内部电源供电功率不够时可外接外部电源供电，内部供电最大支持2A，外部供电最大支持6A。
+
+
+
+![](https://wdcdn.qpic.cn/MTY4ODg1Nzk2NjM5OTUzMA_358370_l8SxGy-kAMRqfAVK_1715132729?w=674&h=241&type=image/png)![](https://wdcdn.qpic.cn/MTY4ODg1MTI2MzE5MDc3MQ_602049_AdwTeYdVSv6d6t_t_1779954920?w=707&h=315&type=image/png)
+
+
+
+## **3.7 通过继电器NPN与PNP互转**
+
+
+
+在实际使用过程中可能会遇到各种传感器与PLC，PNP与NPN的都有，这种情况可以通过中间继电器进行信号转换，具体方法为将外部设备（如PLC）的输出信号接在继电器的线圈端，机器人输入接在继电器的常开触点端，当外部设备输出信号时，线圈得电，触点吸合，机器人得电。（输出接法则相反）
+
+
+
+![](https://wdcdn.qpic.cn/MTY4ODg1Nzk2NjM5OTUzMA_127932_-7JJ6px8qFOtpHgJ_1721801422?w=365&h=353&type=image/png)
+
+
+
+## **3.8 B1柜PNP/NPN切换**
+
+
+
+![](https://wdcdn.qpic.cn/MTY4ODg1Nzk2NjM5OTUzMA_220467_I8lai3Sb4K7LSWoo_1774344159?w=679&h=280&type=image/png)
+
+
+
+安全输入、可配置输入及数字输入均支持 NPN 型或 PNP 型。每种模式对应不同的信号
+
+
+
+类型：
+
+
+
+NPN 模式：指低电平有效。 PNP 模式：指高电平有效。
+
+
+
+安全输入、可配置输入及数字输入只能配置为同一种模式（PNP 型或 NPN 型），无法单
+
+
+
+独配置。输入侧 COM 口配置需与输入 NPN/PNP 类型配置相匹配，为确保正确连接，请按照
+
+
+
+以下方式进行接线：
+
+
+
+1. NPN 输入信号配置
+
+
+
+NPN → 连接至 24V 端口（参考图 2-14 中红色连接线）
+
+
+
+COM 口 → 连接至 0V 接口（参考图 2-15 中红色连接线）
+
+
+
+2. PNP 输入信号配置
+
+
+
+PNP → 连接至 0V 端口（参考图 2-14 中蓝色连接线）
+
+
+
+COM 口 → 连接至 24V 接口（参考图 2-15 中蓝色连接线）
+
+
+
+# **4. 常见问题解答**
+
+
+
+# ** **
+
+
+
+# ** **

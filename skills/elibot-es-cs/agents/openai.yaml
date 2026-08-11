@@ -1,0 +1,4 @@
+interface:
+  display_name: "艾利特 ES/CS 机械臂技术文档"
+  short_description: "ES/CS 协作机器人编程、二次开发、通讯、ROS2 与故障处理"
+  default_prompt: "Use $elibot-es-cs to help me write an Elibot ES/CS robot program."
