@@ -1,4 +1,4 @@
-﻿# 敏感信息
+# 敏感信息
 .env
 .env.*
 !.env.example
@@ -15,3 +15,7 @@ package-lock.json
 
 # 单独管理的项目（皮肤等）
 codex-skin/
+
+# Python 缓存
+__pycache__/
+

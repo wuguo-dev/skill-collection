@@ -1,0 +1,4 @@
+interface:
+  display_name: "艾利特图形化任务生成器"
+  short_description: "生成艾利特ES/CS机器人图形化编程的.task任务文件，可直接拖入示教器"
+  default_prompt: "帮我生成一个艾利特机械臂图形化编程的.task文件"
