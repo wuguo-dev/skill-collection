@@ -11,6 +11,7 @@ A collection of reusable Codex skills, templates, and related assets.
 | [kimi-vision](skills/kimi-vision) | 使用 Moonshot Kimi K3 视觉模型识别图片内容 | 2026-08-08 |
 | [elibot-es-cs](skills/elibot-es-cs) | 艾利特 ES/CS 系列协作机器人官方技术文档知识库与操作指南 | 2026-08-07 |
 | [elibot-task-generator](skills/elibot-task-generator) | 生成艾利特 ES/CS 机器人图形化编程 .task 任务文件，可直接拖入示教器 | 2026-08-13 |
+| [jaka-robot](skills/jaka-robot) | JAKA 协作机器人 V3 编程、SDK、通讯、ROS 2、AddOn 与故障诊断 | 2026-08-26 |
 | [hatch-pet](skills/hatch-pet) | 创建/修复/验证/打包 Codex v2 动画宠物 | 2026-07-31 |
 
 ## 使用方式

@@ -1,0 +1,4 @@
+interface:
+  display_name: "JAKA 机械臂技术文档"
+  short_description: "JAKA V3 编程、SDK、通讯、ROS 2、AddOn 与故障诊断"
+  default_prompt: "Use $jaka-robot to help me develop and troubleshoot a JAKA robot application."
