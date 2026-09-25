@@ -1,0 +1,4 @@
+interface:
+  display_name: "Station 设备页面接入"
+  short_description: "将 HTML/JSP 按钮安全接入 station 设备控制接口"
+  default_prompt: "分析前端交互与 station 后端路由，将页面按钮接入设备请求，并验证成功、失败和防重复提交逻辑。"
