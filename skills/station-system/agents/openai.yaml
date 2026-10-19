@@ -1,0 +1,6 @@
+interface:
+  display_name: "Station 智能巡检系统"
+  short_description: "结合本地源码分析智能巡检、设备动作链、路径里程与雷达定位逻辑"
+  default_prompt: "使用 $station-system，结合 station 当前源码分析我的问题，并区分确定机制与现场待验证原因。"
+policy:
+  allow_implicit_invocation: true

@@ -14,6 +14,7 @@ A collection of reusable Codex skills, templates, and related assets.
 | [jaka-robot](skills/jaka-robot) | JAKA 协作机器人 V3 编程、SDK、通讯、ROS 2、AddOn 与故障诊断 | 2026-08-26 |
 | [hatch-pet](skills/hatch-pet) | 创建/修复/验证/打包 Codex v2 动画宠物 | 2026-07-31 |
 | [station-device-ui-integration](skills/station-device-ui-integration) | 将 HTML/JSP 平板页面安全接入 station 设备控制接口 | 2026-09-25 |
+| [station-system](skills/station-system) | 基于源码分析 station 智能巡检系统、动作链、路径里程及雷达定位 | 2026-10-19 |
 
 ## 使用方式
 

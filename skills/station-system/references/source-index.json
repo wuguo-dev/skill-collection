@@ -1,0 +1,743 @@
+{
+  "root": "D:/WorkSpace/code/station",
+  "reviewed_on": "2026-10-19",
+  "git_head": "3463db2e946a1cf2092a63a431696137d6dfc74f",
+  "working_tree_clean": "not established",
+  "files": [
+    {
+      "path": "src/main/webapp/WEB-INF/web.xml",
+      "topics": [
+        "architecture"
+      ],
+      "sha256": "f69c63cc52094ec14b1e88ecf030d9b1813c54003daf6b369a5e7b61a8820fc0",
+      "anchors": {
+        "main.MainModule": [
+          53
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/main/MainSetup.java",
+      "topics": [
+        "architecture"
+      ],
+      "sha256": "9dc9a8bcd80c900ed0dad819da8966a74bf877471f7adc17e806df52168cf88d",
+      "anchors": {
+        "void init(": [
+          31
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/main/MainModule.java",
+      "topics": [
+        "architecture",
+        "runtime"
+      ],
+      "sha256": "f0de71a4d50435c1bd869f19ea7c4bfad2fa29ade6ea1c019e2941a3092d00eb",
+      "anchors": {
+        "void api(": [
+          190
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/main/Constants.java",
+      "topics": [
+        "architecture"
+      ],
+      "sha256": "f065192f829ecab00108b628f91679f2a6d6cb36da79d77783764ff43bad475e",
+      "anchors": {
+        "ScriptEngine jse": [
+          28
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/service/BaseService.java",
+      "topics": [
+        "architecture",
+        "runtime"
+      ],
+      "sha256": "a6ea10391a2c27c2f17742154b3ea8b44e6cbf4304de63e8d191513a0fc57b66",
+      "anchors": {
+        "getTCacheStream(": [
+          783,
+          791,
+          800,
+          810,
+          824
+        ],
+        "daoSave(TBase": [
+          266,
+          305
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/service/ConfigService.java",
+      "topics": [
+        "architecture",
+        "runtime"
+      ],
+      "sha256": "004a53ea83a96041f5c603d931183b7c967b8ce2a02a5469483ada95c3b72a71",
+      "anchors": {
+        "getAction(String": [
+          159
+        ],
+        "initScript(": [
+          52,
+          78,
+          311
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/service/DeviceService.java",
+      "topics": [
+        "architecture",
+        "runtime"
+      ],
+      "sha256": "5e14d441748724d6d00faf6008df9ce7175e51cce352dac71fb44c06e39d9172",
+      "anchors": {
+        "void loadDev(": [
+          193
+        ],
+        "getInstance(Device": [
+          147
+        ],
+        "getDeviceChild(": [
+          210,
+          305
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/main/controller/JsonControler.java",
+      "topics": [
+        "runtime"
+      ],
+      "sha256": "259beccb799f3357943e8ba217eb4629f8f3e1f9e46faa9cb011eda17b78c9ff",
+      "anchors": {
+        "void devExec(": [
+          793
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/mvc/BaseProcessor.java",
+      "topics": [
+        "runtime"
+      ],
+      "sha256": "a9df2a10c1899a32274587f2fccafedd454241f7ec8a2ae2e97500292083f0e9",
+      "anchors": {
+        "void process(": [
+          21
+        ]
+      }
+    },
+    {
+      "path": "src/main/resources/ioc/chain.js",
+      "topics": [
+        "runtime"
+      ],
+      "sha256": "2d25435daf44c6648bd874eeb2007a754cc0696b356f7e0cfd4955740211ec0c",
+      "anchors": {
+        "mvc.BaseProcessor": [
+          7
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/model/DataRes.java",
+      "topics": [
+        "runtime"
+      ],
+      "sha256": "f7b66048ebd91157cbacc5535bec405f3e4f99ef89a01a20b3fad3d1ef804370",
+      "anchors": {
+        "class DataRes": [
+          5
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/infc/BaseDevice.java",
+      "topics": [
+        "architecture",
+        "runtime"
+      ],
+      "sha256": "d3ebf1044489d2cae21d7dea194e1a72a3087fc7d75023ab6864a6d58b4012eb",
+      "anchors": {
+        "void filter(": [
+          280
+        ],
+        "Object invoke(": [
+          321,
+          329,
+          736,
+          769
+        ],
+        "Data put(": [
+          537
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/service/CommuService.java",
+      "topics": [
+        "runtime"
+      ],
+      "sha256": "35f8c396a57a6f9107d0ad734112c377ccb760ad6cef94bd564bd6c5f43e2138",
+      "anchors": {
+        "void commuStart(": [
+          79
+        ],
+        "void listen(": [
+          151
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/common/CommuncationThread.java",
+      "topics": [
+        "runtime"
+      ],
+      "sha256": "4468dd33a8ee9a9e870e7257d32b1f953c05bcedc3df76f676c607e14fabd4c7",
+      "anchors": {
+        "void run(": [
+          58
+        ],
+        "void addPoll(": [
+          94
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/common/Command.java",
+      "topics": [
+        "runtime"
+      ],
+      "sha256": "cf32dd2ecdc865757446cd1c9a63702b57735eb7af95e771103fffa0fbd78bed",
+      "anchors": {
+        "sendCommand(": [
+          163,
+          167,
+          174
+        ],
+        "analysiser(": [
+          278,
+          286,
+          293
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/service/SyService.java",
+      "topics": [
+        "architecture"
+      ],
+      "sha256": "d557ea85216dcc85aae741b4cfb638e71c6cda9534e4da7ff7ea2dbe45331707",
+      "anchors": {
+        "void startService(": [
+          42
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/service/CronService.java",
+      "topics": [
+        "architecture",
+        "inspection"
+      ],
+      "sha256": "89ad8bd5b6e9773ab3ae23feeb66a081ff18b49f8523b40e038c9c074a287548",
+      "anchors": {
+        "String add(SysCrontab": [
+          48
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/service/WebsocketRoom.java",
+      "topics": [
+        "runtime"
+      ],
+      "sha256": "5c5482220e36a15a1879a58e578f41cc9f4f835545b52ab20c1dd611766096a7",
+      "anchors": {
+        "sendDevice(": [
+          72,
+          91
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/common/CommonAction.java",
+      "topics": [
+        "runtime"
+      ],
+      "sha256": "9322253f473233438e400aef46e7f20ce73d6645b86cc3aaf02f0e9d948840e2",
+      "anchors": {
+        "Object chainRun(": [
+          59,
+          76,
+          126,
+          175,
+          179
+        ],
+        "void stop(": [
+          217,
+          222
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/model/table/ActionChain.java",
+      "topics": [
+        "runtime"
+      ],
+      "sha256": "a1d0270c9033439dbd122dfb764cc2d2b2f3974f11fe0a54a79adf6a98c974f6",
+      "anchors": {
+        "class ActionChain": [
+          8
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/model/table/TBaseSeq.java",
+      "topics": [
+        "runtime"
+      ],
+      "sha256": "efbeb7accadbeb83e18b5dd2fe187e5c42feea1686a6dabfac752253448b8caf",
+      "anchors": {
+        "int compareTo(": [
+          21
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/actionChain/ActionChainDevice.java",
+      "topics": [
+        "runtime"
+      ],
+      "sha256": "856b920ee74df6fab5d4d0e2db2c4042da4a3758534fb08dc8a338cb8a0dce80",
+      "anchors": {
+        "void actionGroupThread(": [
+          83
+        ],
+        "void waitMSecond(": [
+          133
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/nav/RobotNavDevice.java",
+      "topics": [
+        "navigation"
+      ],
+      "sha256": "a3b42f8c0b5072f76e2c9502306b639c4712175130636cf88b56e6f945e563bb",
+      "anchors": {
+        "void setRobotAtThisPoint(": [
+          286
+        ],
+        "void stopAndInitParamsAndRun(": [
+          650
+        ],
+        "renderId2SlamPoint(": [
+          675,
+          701
+        ],
+        "ConcurrentLinkedQueue<RobotNavRunPoint> p2p(": [
+          873
+        ],
+        "Boolean navToPoint(": [
+          1159
+        ],
+        "Boolean fixPostionPreAction(": [
+          1304
+        ],
+        "void fixPostion(": [
+          1336
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/nav/threads/NavRunThread.java",
+      "topics": [
+        "navigation"
+      ],
+      "sha256": "bb8900b7da2e5586aea8b360fb4a44727460f4f476cf75a0c8ecbbd469642681",
+      "anchors": {
+        "Boolean call(": [
+          68
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/nav/param/point/RobotNavRunPoint.java",
+      "topics": [
+        "navigation"
+      ],
+      "sha256": "60bd9967a76461eba6161a0bb1960b6f5d27bb451254cd9769090298b0881a4a",
+      "anchors": {
+        "int compareTo(": [
+          28
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/nav/PlcPostionDevice.java",
+      "topics": [
+        "navigation"
+      ],
+      "sha256": "897049b5c786d1acaa73f124b1b0c9c1afed1d934cefd17c7ab2e824bb25d16e",
+      "anchors": {
+        "boolean setRobotPathAndPathPostion(": [
+          74
+        ],
+        "Long getPathPostion(": [
+          144,
+          216
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/nav/RobotAccurateDevice.java",
+      "topics": [
+        "navigation",
+        "radar"
+      ],
+      "sha256": "ea6e3b4c5c02641e3101a6499c003dd12d5cd3debe8811891144bf869d364a9d",
+      "anchors": {
+        "void slamMoveWith3D(": [
+          338
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/nav/model/NavPoint.java",
+      "topics": [
+        "navigation"
+      ],
+      "sha256": "291f253143beb1bd4e9c0aea809e6148ff47d49cb2c2528ba4d9f986eeb627d1",
+      "anchors": {
+        "class NavPoint": [
+          10
+        ],
+        "private Boolean isAccurate": [
+          21
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/nav/model/NavPath.java",
+      "topics": [
+        "navigation"
+      ],
+      "sha256": "74070648fb176caf3fc68ef8384fe962640f3172de49cfc3378d1cfb932addad",
+      "anchors": {
+        "class NavPath": [
+          10
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/nav/model/NavPointMap.java",
+      "topics": [
+        "navigation"
+      ],
+      "sha256": "5d6820cd6129c42ab5bfc678ed2276de91f5a675628b691cf742e1a7f08e3dc7",
+      "anchors": {
+        "class NavPointMap": [
+          9
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/nav/model/NavPathMulti.java",
+      "topics": [
+        "navigation"
+      ],
+      "sha256": "b94dc88b75162f50c573a3126a60f5c86822cfb573a24c5ec38e25bc63175cb7",
+      "anchors": {
+        "class NavPathMulti": [
+          10
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/nav/enums/NavPointTypeEnum.java",
+      "topics": [
+        "navigation"
+      ],
+      "sha256": "974904ea3d42bac72ddf6f1a647b9bfe747c3d1c6e5451b3db63a30726e22b3e",
+      "anchors": {
+        "MUST_BACK(": [
+          16
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/nav/enums/NavPathTypeEnum.java",
+      "topics": [
+        "navigation"
+      ],
+      "sha256": "cd816fad2f9d5d762e457977ba0a2ed5d7df09c4ea589f4571d02eaef938126d",
+      "anchors": {
+        "SLAM_3D_ROAD(": [
+          26
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/nav/RobotNavConfigDevice.java",
+      "topics": [
+        "navigation"
+      ],
+      "sha256": "bb4b036ae8c1ca398886af59348bfac5fd94830589909783eae2305f94c72325",
+      "anchors": {
+        "void init(": [
+          26
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/nav/param/path/PathParamAbstract.java",
+      "topics": [
+        "navigation"
+      ],
+      "sha256": "db7f3b4a8ce5c5dd39b8e576023ebf846a1699ce531a9cc91308d7f00690ba5b",
+      "anchors": {
+        "private String xzLevels": [
+          15
+        ]
+      }
+    },
+    {
+      "path": "src/main/webapp/WEB-INF/pc/plugin/nav/navPoint.jsp",
+      "topics": [
+        "navigation"
+      ],
+      "sha256": "30aeed9345b887089d44eb4d477beda3897a89b2ae8c82cd4a1afccb1f4e5754",
+      "anchors": {
+        "data-type=\"rownum\"": [
+          80
+        ],
+        "setRobotAtThisPoint": [
+          162
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/robotWheeled/PlcDriveDevice.java",
+      "topics": [
+        "navigation"
+      ],
+      "sha256": "63181038c28cdc475e6f6ab04ba2e624a075b8af423c58762d2d363943e3dadd",
+      "anchors": {
+        "Command comDrive(": [
+          74
+        ],
+        "float mmCount(": [
+          295
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/deviceInfc/AbstractDriveDevice.java",
+      "topics": [
+        "navigation"
+      ],
+      "sha256": "e4ff5620646a1bb42844c08bdd27fb876b70730ce5b35b7d6bae4b43f2749e29",
+      "anchors": {
+        "abstract Command comDrive(": [
+          19
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/hardware/lidar/LivoxMid360Device.java",
+      "topics": [
+        "radar"
+      ],
+      "sha256": "1f0152aee499fe53068ba6b4369df06d97dcbc530ac4af4d542ca9a76e91f875",
+      "anchors": {
+        "void comRx(": [
+          93
+        ],
+        "List<Object> getXYZ(": [
+          145
+        ],
+        "boolean isTimeOut(": [
+          182
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/slamNav/Slam3DDevice.java",
+      "topics": [
+        "radar"
+      ],
+      "sha256": "81555444ac06bf07fa7c18b885aaf14a79637ca478b52184dcc9051a548bbdcf",
+      "anchors": {
+        "List<Object> getXYZ(": [
+          222
+        ],
+        "Double getMinZInRange(": [
+          463
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/slamNav/SlamDevice.java",
+      "topics": [
+        "radar"
+      ],
+      "sha256": "ee2e085365a2804dc13dc4395f9b79e11d22762b1ea6a8168ae404cae4bbc2d0",
+      "anchors": {
+        "InfcLidar getUseRp(": [
+          104
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/standard/LidarRsHeliosDevice.java",
+      "topics": [
+        "radar"
+      ],
+      "sha256": "917693a7c4ef2ae46637e9de26ebfbf6ab4fab6531eb332177f17e5cdfc0635d",
+      "anchors": {
+        "void comRx(": [
+          30
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/robotWheeled/Plc.java",
+      "topics": [
+        "inspection",
+        "navigation"
+      ],
+      "sha256": "b927f623532d273d837bf99bbe77acbb189b986b665445f194726e41f3c2e3c3",
+      "anchors": {
+        "void execTask(": [
+          689
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/robotWheeled/sysService/RobotTaskExecService.java",
+      "topics": [
+        "inspection"
+      ],
+      "sha256": "cbb18d36d5fed3367a6a976b0dd20dc6d75d9224cfe33016dadef3d05300ccec",
+      "anchors": {
+        "void run(": [
+          26,
+          31
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/task/TaskDevice.java",
+      "topics": [
+        "inspection"
+      ],
+      "sha256": "9bf02bae78be7df009e0927ae7ff06b2a3c628184ac94ad03de297d507388eb2",
+      "anchors": {
+        "void startUpInit(": [
+          128
+        ],
+        "List<Long> getPointByImgFuncMapList(": [
+          502
+        ],
+        "void taskEnd(": [
+          534,
+          575
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/autoConfig/RobotAutoConfigDevice.java",
+      "topics": [
+        "inspection"
+      ],
+      "sha256": "01bfe929827f28d17df147a50c4ec0b0d709843dc26301fea8fb6cd21cb63bb0",
+      "anchors": {
+        "void receiveTask(": [
+          422
+        ],
+        "void stopAndClearCurTaskQueue(": [
+          1493
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/ocr/OcrDevice.java",
+      "topics": [
+        "inspection"
+      ],
+      "sha256": "192d5a28f538fec3336af842e687bfc0701f7fc9b23f30b43997b6c6fbf9d8dc",
+      "anchors": {
+        "void doUserInput(": [
+          684
+        ],
+        "ImgHistory saveImgDataMain(": [
+          1799
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/ocr/model/ImgFunction.java",
+      "topics": [
+        "inspection"
+      ],
+      "sha256": "f68df0a211b82373e8a9a7ebd9c898c50800a3840619f915cc7794554034b658",
+      "anchors": {
+        "positionId": [
+          15,
+          99,
+          101,
+          102
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/ocr/model/ImgHistory.java",
+      "topics": [
+        "inspection"
+      ],
+      "sha256": "a71927049e77605599c2d1d491416c206e0e61edab58587f11f352490ccb0625",
+      "anchors": {
+        "class ImgHistory": [
+          10
+        ]
+      }
+    },
+    {
+      "path": "src/main/java/plugin/device/liangchang/LiangChangJianCeDevice.java",
+      "topics": [
+        "inspection"
+      ],
+      "sha256": "39d4730bec59c1cc13f9313c263cadc691a81f8522e1c317f67f0b7880fe862a",
+      "anchors": {
+        "boolean startSize(": [
+          397
+        ],
+        "JSONObject httpJson(": [
+          714
+        ]
+      }
+    },
+    {
+      "path": "pom.xml",
+      "topics": [
+        "architecture"
+      ],
+      "sha256": "2df1cc12d95e540ed85aee58d2c4d932d1a96f4b2dbb0a82b22c7d95d274e89b",
+      "anchors": {
+        "<artifactId>maven-compiler-plugin</artifactId>": [
+          411
+        ]
+      }
+    }
+  ]
+}
