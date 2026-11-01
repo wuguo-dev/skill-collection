@@ -1,0 +1,4 @@
+interface:
+  display_name: "Spring AI Alibaba 开发指南"
+  short_description: "基于官方文档开发 ReactAgent、Graph 工作流、工具与记忆"
+  default_prompt: "使用 $spring-ai-alibaba，先核对项目版本，再完成当前 Spring AI Alibaba 开发任务。"
