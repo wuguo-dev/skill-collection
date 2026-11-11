@@ -1,0 +1,4 @@
+interface:
+  display_name: "微信支付风格 HTTP 接口文档"
+  short_description: "将现有接口整理为微信支付风格的 HTTP 文档，统一参数表、示例与 PDF 排版"
+  default_prompt: "使用 $wechatpay-http-docs 将这份接口文档整理为微信支付风格的 HTTP 文档，并校验参数、示例和排版。"

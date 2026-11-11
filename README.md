@@ -16,6 +16,7 @@ A collection of reusable Codex skills, templates, and related assets.
 | [station-device-ui-integration](skills/station-device-ui-integration) | 将 HTML/JSP 平板页面安全接入 station 设备控制接口 | 2026-09-25 |
 | [station-system](skills/station-system) | 基于源码分析 station 智能巡检系统、动作链、路径里程及雷达定位 | 2026-10-19 |
 | [spring-ai-alibaba](skills/spring-ai-alibaba) | Spring AI Alibaba 官方文档开发指南：Agent、工具、记忆、Graph、RAG 与多智能体 | 2026-11-01 |
+| [wechatpay-http-docs](skills/wechatpay-http-docs) | 微信支付风格 HTTP 接口文档，统一章节、参数表、JSON 示例与 PDF 排版 | 2026-11-11 |
 
 ## 使用方式
 
